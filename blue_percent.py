@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 
 ## 使用する画像指定 jpgでもpngでも可
-img = cv2.imread("./c-ori.jpg")
+img = cv2.imread("./original.jpg")
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
 ## hsvで抜き出す色の範囲を指定
