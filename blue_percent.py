@@ -21,6 +21,7 @@ img = Image.open('image.png')
 black = 0
 blue = 0
 
+# 黒とその他の色に分ける
 for pixel in img.getdata():
 
     # rgb値指定
